@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <button onclick="generateNumberClick()" class="first-button">
+      Generate Number
+    </button>
+
+    <div class="main">
+      <div class="box" style="visibility: hidden">
+        <img
+          src="question mark.jpg"
+          alt="thinking man"
+          style="border-radius: 50px"
+        />
+        <p>Guess the number between 1 to 6</p>
+        <input id="number" type="number" placeholder="Enter number" />
+        <button onclick="check_number()" class="check">Check</button>
+      </div>
+
+      <div id="imgDiv"></div>
+
+      <div style="margin: 24px;" class="score">
+        <p style="font-size:large;">Score: <span id="score">0</span></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
