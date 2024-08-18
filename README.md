@@ -1,1 +1,1 @@
-https://guess-number-zaid.netlify.app
+https://guess-number-zaid-saylani.netlify.app
